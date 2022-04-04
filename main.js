@@ -28,7 +28,7 @@ function gotPoses(results){
 	if(results.length > 0){
 		noseX = results[0].pose.nose.x;
 		noseY = results[0].pose.nose.y;
-		console.log("noseX = ");
+	
 	  }
 }
 

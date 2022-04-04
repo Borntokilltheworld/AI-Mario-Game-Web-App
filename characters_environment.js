@@ -611,5 +611,14 @@ function upSide(obj){ return obj.position.y-(obj.height/2);}
 function downSide(obj){ return obj.position.y+(obj.height/2);}
 
 /*=====  End of For Debugging  ======*/
-
+noseX = "";
+noseY = "";
+Game_Status = "";
+function startGame(){
+  Game_Status = "start"
+  document.getElementById("status").innerHTML = "Status is Loading";
+}
+function game(){
+	console.log("noseX = "+noseX+"noseY ="+noseY );
+}
 
